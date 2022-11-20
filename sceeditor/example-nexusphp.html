@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+		<title>SCEditor Demo</title>
+
+		<link rel="stylesheet" href="minified/themes/default.min.css" id="theme-style" />
+		  
+		<script src="minified/sceditor.min.js"></script>
+		<script src="minified/icons/monocons.js"></script>
+		<script src="minified/formats/bbcode.js"></script>
+
+		<style>
+			html {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 13px;
+			}
+			form div {
+				padding: .5em;
+			}
+			code:before {
+				position: absolute;
+				content: 'Code:';
+				top: -1.35em;
+				left: 0;
+			}
+			code {
+				margin-top: 1.5em;
+				position: relative;
+				background: #eee;
+				border: 1px solid #aaa;
+				white-space: pre;
+				padding: .25em;
+				min-height: 1.25em;
+			}
+			code:before, code {
+				display: block;
+				text-align: left;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="" method="post">
+			<div>
+				<textarea id="descr" style="height:800px;width:800px;">[b]粗体[/b]
+
+					[i]斜体[/i]
+					
+					[u]下划线[/u]
+					
+					[url=https://www.bing.com/]URL: bing.com[/url]
+					
+					[img]image-test.png[/img]
+					
+					[*]列表项目1
+					[*]列表项目2
+					
+					[quote]引用[/quote]
+					
+					[color=DarkOrange]名称颜色[/color]
+					
+					[color=#ff8c00]代码颜色[/color]
+					
+					[font=Arial]Arial 字体[/font]
+					
+					[font=Times New Roman]Times New Roman 字体[/font]
+					
+					[font=Comic Neue]Comic Neue 字体[/font]
+					
+					[size=1]1 号字（最小[/size]
+					
+					[size=2]2 号字[/size]
+					
+					[size=3]3 号字[/size]
+					
+					[size=4]4 号字[/size]
+					
+					[size=5]5 号字[/size]
+					
+					[size=6]6 号字[/size]
+					
+					[size=7]7 号字（最大）[/size]
+					
+					em1 表情：[em1]
+					
+					em191 表情：[em191]</textarea>
+
+			</div>
+
+		</form>
+
+
+		<script src="init.js"></script>
+
+		<p>SCEditor is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT</a></p>
+	</body>
+</html>
